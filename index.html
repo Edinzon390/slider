@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider de Imágenes con Zoom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider-container">
+        <input type="radio" id="slide1" name="slide" checked>
+        <input type="radio" id="slide2" name="slide">
+        <input type="radio" id="slide3" name="slide">
+        <input type="radio" id="slide4" name="slide">
+
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div class="slide">
+                    <img src="img/imagen1.png" alt="Imagen 1">
+                </div>
+                <div class="slide">
+                    <img src="img/imagen2.png" alt="Imagen 2">
+                </div>
+                <div class="slide">
+                    <img src="img/imagen3.png" alt="Imagen 3">
+                </div>
+                <div class="slide">
+                    <img src="img/imagen4.png" alt="Imagen 4">
+                </div>
+            </div>
+        </div>
+
+        
+        <label for="slide4" class="btn btn-prev" id="btn-prev-1">❮</label>
+        <label for="slide2" class="btn btn-next" id="btn-next-1">❯</label>
+
+       
+        <label for="slide1" class="btn btn-prev" id="btn-prev-2">❮</label>
+        <label for="slide3" class="btn btn-next" id="btn-next-2">❯</label>
+
+  
+        <label for="slide2" class="btn btn-prev" id="btn-prev-3">❮</label>
+        <label for="slide4" class="btn btn-next" id="btn-next-3">❯</label>
+
+  
+        <label for="slide3" class="btn btn-prev" id="btn-prev-4">❮</label>
+        <label for="slide1" class="btn btn-next" id="btn-next-4">❯</label>
+    </div>
+</body>
+</html>
